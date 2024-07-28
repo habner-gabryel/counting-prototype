@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 18249605}
   - component: {fileID: 18249604}
   - component: {fileID: 18249603}
+  - component: {fileID: 18249606}
   m_Layer: 5
   m_Name: Restart Button
   m_TagString: Untagged
@@ -255,6 +256,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18249601}
   m_CullTransparentMesh: 1
+--- !u!114 &18249606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 18249601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1369c21c0990943aab96a2daaae25a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRb: {fileID: 0}
+  gameManager: {fileID: 0}
+  horizontalInput: 0
 --- !u!1 &190625155
 GameObject:
   m_ObjectHideFlags: 0
@@ -1156,6 +1172,7 @@ GameObject:
   - component: {fileID: 1757614827}
   - component: {fileID: 1757614829}
   - component: {fileID: 1757614828}
+  - component: {fileID: 1757614830}
   m_Layer: 5
   m_Name: Game Over Text
   m_TagString: Untagged
@@ -1279,6 +1296,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1757614826}
   m_CullTransparentMesh: 1
+--- !u!114 &1757614830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757614826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20edec0880bf03bbbab44a5c39b7674d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1775201739
 PrefabInstance:
   m_ObjectHideFlags: 0
