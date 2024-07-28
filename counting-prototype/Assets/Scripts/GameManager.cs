@@ -14,6 +14,10 @@ public class GameManager : MonoBehaviour
     private float spawnRate = 1F;
     public bool isGameActive;
 
+    public void Start(){
+        gameOverText.gameObject.SetActive(false);
+        restartButton.gameObject.SetActive(false);
+    }
     public void StartGame(int difficulty) {
         isGameActive = true;
         StartCoroutine(SpawnTarget());
